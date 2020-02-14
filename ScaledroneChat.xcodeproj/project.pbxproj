@@ -12,6 +12,7 @@
 		D9087FD623F20E2A0057F85D /* BehavioSecIOSSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9087FD323F20E2A0057F85D /* BehavioSecIOSSDK.a */; };
 		D95C9B8723F6DA8B00493776 /* ChatbotService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C9B8623F6DA8B00493776 /* ChatbotService.swift */; };
 		D95C9B8923F707EB00493776 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C9B8823F707EB00493776 /* ChatViewController.swift */; };
+		D96EB6BE23F76908002E9A89 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D96EB6BD23F76908002E9A89 /* Settings.bundle */; };
 		F51FC96A2143A823001F9009 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51FC9692143A823001F9009 /* AppDelegate.swift */; };
 		F51FC96C2143A823001F9009 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51FC96B2143A823001F9009 /* ViewController.swift */; };
 		F51FC96F2143A823001F9009 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51FC96D2143A823001F9009 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 		D9087FD423F20E2A0057F85D /* BSSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSSession.h; sourceTree = "<group>"; };
 		D95C9B8623F6DA8B00493776 /* ChatbotService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatbotService.swift; sourceTree = "<group>"; };
 		D95C9B8823F707EB00493776 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		D96EB6BD23F76908002E9A89 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		E0DC8D108C38EC38D898977F /* Pods-ScaledroneChatTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScaledroneChatTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScaledroneChatTest/Pods-ScaledroneChatTest.release.xcconfig"; sourceTree = "<group>"; };
 		F51FC9662143A823001F9009 /* ScaledroneChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaledroneChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51FC9692143A823001F9009 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				F51FC96B2143A823001F9009 /* ViewController.swift */,
 				F51FC96D2143A823001F9009 /* Main.storyboard */,
 				F51FC9702143A824001F9009 /* Assets.xcassets */,
+				D96EB6BD23F76908002E9A89 /* Settings.bundle */,
 				F51FC9722143A824001F9009 /* LaunchScreen.storyboard */,
 				F51FC9752143A824001F9009 /* Info.plist */,
 				F51FC97B2143A8E5001F9009 /* Message.swift */,
@@ -183,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D96EB6BE23F76908002E9A89 /* Settings.bundle in Resources */,
 				F51FC9742143A824001F9009 /* LaunchScreen.storyboard in Resources */,
 				F51FC9712143A824001F9009 /* Assets.xcassets in Resources */,
 				F51FC96F2143A823001F9009 /* Main.storyboard in Resources */,
