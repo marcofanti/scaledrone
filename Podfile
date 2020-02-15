@@ -8,7 +8,7 @@ target 'ScaledroneChat' do
   # Pods for ScaledroneChat
 #pod 'MessageKit'
 pod 'MessageKit', :path => '../MessageKit'
-pod 'Scaledrone', '~> 0.3.0'
+pod 'Scaledrone', '~> 0.5.0'
 pod 'InputBarAccessoryView'
 pod 'SwiftyJSON', '~> 4.0'
 pod 'Alamofire'

@@ -3,16 +3,16 @@ PODS:
   - InputBarAccessoryView (4.2.2)
   - MessageKit (3.0.0):
     - InputBarAccessoryView (~> 4.2.2)
-  - Scaledrone (0.3.0):
-    - Starscream (~> 2.1.0)
-  - Starscream (2.1.1)
+  - Scaledrone (0.5.0):
+    - Starscream (~> 3.1.0)
+  - Starscream (3.1.1)
   - SwiftyJSON (4.3.0)
 
 DEPENDENCIES:
   - Alamofire
   - InputBarAccessoryView
   - MessageKit (from `../MessageKit`)
-  - Scaledrone (~> 0.3.0)
+  - Scaledrone (~> 0.5.0)
   - SwiftyJSON (~> 4.0)
 
 SPEC REPOS:
@@ -31,10 +31,10 @@ SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   InputBarAccessoryView: 2b937602598e2fab3149f37f51dd7ad795653812
   MessageKit: 727f80d121b859855ad9fba3d032d23705147c78
-  Scaledrone: 25e5e70107222ed50046fc0ed9569915bdb85262
-  Starscream: 142bd8ef24592d985daee9fa48c936070b85b15f
+  Scaledrone: 7fc6a9ab8e969b0df53fe14b54217db8ddf0715a
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: 2093df6efaa3105f4f25e467668c462b19c06a0d
+PODFILE CHECKSUM: 357b87790e9a577cac68653b71741c2308def120
 
 COCOAPODS: 1.9.0.beta.3

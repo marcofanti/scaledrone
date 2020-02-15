@@ -37,17 +37,17 @@ class ChatbotService {
 
 extension ChatbotService: ScaledroneDelegate {
   
-  func scaledroneDidConnect(scaledrone: Scaledrone, error: NSError?) {
+  func scaledroneDidConnect(scaledrone: Scaledrone, error: Error?) {
     print("Connected to Scaledrone")
     room = scaledrone.subscribe(roomName: "observable-room")
     room?.delegate = self
   }
   
-  func scaledroneDidReceiveError(scaledrone: Scaledrone, error: NSError?) {
+  func scaledroneDidReceiveError(scaledrone: Scaledrone, error: Error?) {
     print("Scaledrone error", error ?? "")
   }
   
-  func scaledroneDidDisconnect(scaledrone: Scaledrone, error: NSError?) {
+  func scaledroneDidDisconnect(scaledrone: Scaledrone, error: Error?) {
     print("Scaledrone disconnected", error ?? "")
   }
   
@@ -55,7 +55,7 @@ extension ChatbotService: ScaledroneDelegate {
 
 extension ChatbotService: ScaledroneRoomDelegate {
   
-  func scaledroneRoomDidConnect(room: ScaledroneRoom, error: NSError?) {
+  func scaledroneRoomDidConnect(room: ScaledroneRoom, error: Error?) {
     print("Connected to room!")
   }
   
@@ -80,4 +80,3 @@ extension ChatbotService: ScaledroneRoomDelegate {
     messageCallback(message)
   }
 }
-
